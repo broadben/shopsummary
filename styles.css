@@ -206,7 +206,7 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
   font-size: 22px;
   line-height: 1;
 }
-.nav__logo span { color: var(--brand); }
+.nav__logo-text span { color: var(--brand); }
 
 .nav__links {
   display: flex;
@@ -1081,7 +1081,7 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
   font-weight: 700;
   color: var(--text);
 }
-.footer__logo span { color: var(--brand); }
+.footer__logo-text span { color: var(--brand); }
 
 .footer__links {
   display: flex;
