@@ -189,7 +189,7 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
 .nav__inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 32px;
   width: 100%;
 }
 
@@ -201,7 +201,6 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
   font-weight: 800;
   color: var(--text);
   letter-spacing: -0.02em;
-  margin-right: auto;
 }
 .nav__logo-icon {
   font-size: 22px;
@@ -212,19 +211,18 @@ button { font-family: var(--font); cursor: pointer; border: none; outline: none;
 .nav__links {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 32px;
+  flex: 1;
+  justify-content: center;
 }
 .nav__links a {
-  padding: 7px 14px;
-  border-radius: var(--radius-sm);
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-muted);
-  transition: var(--transition);
+  transition: color var(--transition);
 }
 .nav__links a:hover {
   color: var(--text);
-  background: rgba(255,255,255,0.06);
 }
 
 .nav__cta {
